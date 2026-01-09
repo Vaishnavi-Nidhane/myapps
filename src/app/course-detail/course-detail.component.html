@@ -1,0 +1,12 @@
+<div class="course-detail-container">
+    <h2>Course Details</h2>
+    <p>Showing details for Course ID: {{ courseId }}</p>
+    <h3>Syllabus</h3>
+    <ul>
+      <li *ngIf="courseId === 1">Introduction to Angular</li>
+      <li *ngIf="courseId === 1">Components and Modules</li>
+      <li *ngIf="courseId === 2">React Basics</li>
+      <li *ngIf="courseId === 2">State Management</li>
+    </ul>
+  </div>
+  
